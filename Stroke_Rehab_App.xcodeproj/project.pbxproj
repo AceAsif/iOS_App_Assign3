@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		402BD8FE282A9FA400921BCA /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402BD8FD282A9FA400921BCA /* GameData.swift */; };
+		405849AE2832050900F68F69 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405849AD2832050900F68F69 /* TabBarController.swift */; };
+		405D91C628197B1E00DA2B8E /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405D91C528197B1E00DA2B8E /* SettingViewController.swift */; };
+		405D91C82819981E00DA2B8E /* DotHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405D91C72819981E00DA2B8E /* DotHistoryViewController.swift */; };
+		40671C09281C0F1600900ABA /* DotGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40671C08281C0F1600900ABA /* DotGameViewController.swift */; };
+		40671C0B281C0FE500900ABA /* DotGameCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40671C0A281C0FE500900ABA /* DotGameCompleteViewController.swift */; };
+		407E201A28196478006B631C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407E201928196478006B631C /* AppDelegate.swift */; };
+		407E201C28196478006B631C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407E201B28196478006B631C /* SceneDelegate.swift */; };
+		407E201E28196478006B631C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407E201D28196478006B631C /* ViewController.swift */; };
+		407E202128196478006B631C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 407E201F28196478006B631C /* Main.storyboard */; };
+		407E20232819647A006B631C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 407E20222819647A006B631C /* Assets.xcassets */; };
+		407E20262819647A006B631C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 407E20242819647A006B631C /* LaunchScreen.storyboard */; };
+		4096731B28327ACA00C850A7 /* FreeToPlayHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4096731A28327ACA00C850A7 /* FreeToPlayHistoryViewController.swift */; };
+		40A8F966282A8DDB00A8F8A8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40A8F965282A8DDB00A8F8A8 /* GoogleService-Info.plist */; };
+		40B2F7A52830EAD000872586 /* TapGameCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B2F7A42830EAD000872586 /* TapGameCompleteViewController.swift */; };
+		40B2F7A728311A5600872586 /* DotHistoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B2F7A628311A5500872586 /* DotHistoryDetailViewController.swift */; };
+		40CAC98A282BFFC500961691 /* FreeToPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CAC989282BFFC500961691 /* FreeToPlayViewController.swift */; };
+		40CAC98C282C0A0500961691 /* FreeToPlayCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CAC98B282C0A0500961691 /* FreeToPlayCompleteViewController.swift */; };
+		40CAC98E282C1A4C00961691 /* FreeGameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CAC98D282C1A4C00961691 /* FreeGameData.swift */; };
+		40D90516282EBAAB00B8C050 /* TapGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D90515282EBAAB00B8C050 /* TapGameViewController.swift */; };
+		40FFAF1A2832B57F00CCBEF4 /* FreeToPlayHistoryDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FFAF192832B57F00CCBEF4 /* FreeToPlayHistoryDetailedViewController.swift */; };
+		BB6B4C67180568D522C9B2FC /* Pods_Stroke_Rehab_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859D85D69CBBDE59BAD931C2 /* Pods_Stroke_Rehab_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		402BD8FD282A9FA400921BCA /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
+		405849AD2832050900F68F69 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		405D91C528197B1E00DA2B8E /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		405D91C72819981E00DA2B8E /* DotHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotHistoryViewController.swift; sourceTree = "<group>"; };
+		40671C08281C0F1600900ABA /* DotGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotGameViewController.swift; sourceTree = "<group>"; };
+		40671C0A281C0FE500900ABA /* DotGameCompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotGameCompleteViewController.swift; sourceTree = "<group>"; };
+		407E201628196478006B631C /* Stroke_Rehab_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stroke_Rehab_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		407E201928196478006B631C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		407E201B28196478006B631C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		407E201D28196478006B631C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		407E202028196478006B631C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		407E20222819647A006B631C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		407E20252819647A006B631C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		407E20272819647A006B631C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4096731A28327ACA00C850A7 /* FreeToPlayHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeToPlayHistoryViewController.swift; sourceTree = "<group>"; };
+		40A8F965282A8DDB00A8F8A8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		40B2F7A42830EAD000872586 /* TapGameCompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGameCompleteViewController.swift; sourceTree = "<group>"; };
+		40B2F7A628311A5500872586 /* DotHistoryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotHistoryDetailViewController.swift; sourceTree = "<group>"; };
+		40CAC989282BFFC500961691 /* FreeToPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeToPlayViewController.swift; sourceTree = "<group>"; };
+		40CAC98B282C0A0500961691 /* FreeToPlayCompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeToPlayCompleteViewController.swift; sourceTree = "<group>"; };
+		40CAC98D282C1A4C00961691 /* FreeGameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeGameData.swift; sourceTree = "<group>"; };
+		40D90515282EBAAB00B8C050 /* TapGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGameViewController.swift; sourceTree = "<group>"; };
+		40FFAF192832B57F00CCBEF4 /* FreeToPlayHistoryDetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeToPlayHistoryDetailedViewController.swift; sourceTree = "<group>"; };
+		7A1982A9A2628B28BDA468E4 /* Pods-Stroke_Rehab_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stroke_Rehab_App.release.xcconfig"; path = "Target Support Files/Pods-Stroke_Rehab_App/Pods-Stroke_Rehab_App.release.xcconfig"; sourceTree = "<group>"; };
+		859D85D69CBBDE59BAD931C2 /* Pods_Stroke_Rehab_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stroke_Rehab_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C11B80429B9019E93BD58F8E /* Pods-Stroke_Rehab_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stroke_Rehab_App.debug.xcconfig"; path = "Target Support Files/Pods-Stroke_Rehab_App/Pods-Stroke_Rehab_App.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		407E201328196478006B631C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6B4C67180568D522C9B2FC /* Pods_Stroke_Rehab_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3799CCDE51273C489B0D39DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				859D85D69CBBDE59BAD931C2 /* Pods_Stroke_Rehab_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		402BD8FF282AB46000921BCA /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				402BD8FD282A9FA400921BCA /* GameData.swift */,
+				40CAC98D282C1A4C00961691 /* FreeGameData.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		407E200D28196478006B631C = {
+			isa = PBXGroup;
+			children = (
+				407E201828196478006B631C /* Stroke_Rehab_App */,
+				407E201728196478006B631C /* Products */,
+				8904BC3324253C52AC5D0F7E /* Pods */,
+				3799CCDE51273C489B0D39DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		407E201728196478006B631C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				407E201628196478006B631C /* Stroke_Rehab_App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		407E201828196478006B631C /* Stroke_Rehab_App */ = {
+			isa = PBXGroup;
+			children = (
+				409673192832768800C850A7 /* Game */,
+				409673182832766200C850A7 /* History */,
+				402BD8FF282AB46000921BCA /* Database */,
+				40B836FF2822ED0E00168B5E /* ViewController */,
+				407E201928196478006B631C /* AppDelegate.swift */,
+				407E201B28196478006B631C /* SceneDelegate.swift */,
+				405849AD2832050900F68F69 /* TabBarController.swift */,
+				407E201F28196478006B631C /* Main.storyboard */,
+				407E20222819647A006B631C /* Assets.xcassets */,
+				407E20242819647A006B631C /* LaunchScreen.storyboard */,
+				40A8F965282A8DDB00A8F8A8 /* GoogleService-Info.plist */,
+				407E20272819647A006B631C /* Info.plist */,
+			);
+			path = Stroke_Rehab_App;
+			sourceTree = "<group>";
+		};
+		409673182832766200C850A7 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				405D91C72819981E00DA2B8E /* DotHistoryViewController.swift */,
+				40B2F7A628311A5500872586 /* DotHistoryDetailViewController.swift */,
+				4096731A28327ACA00C850A7 /* FreeToPlayHistoryViewController.swift */,
+				40FFAF192832B57F00CCBEF4 /* FreeToPlayHistoryDetailedViewController.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		409673192832768800C850A7 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				40B2F7A42830EAD000872586 /* TapGameCompleteViewController.swift */,
+				40D90515282EBAAB00B8C050 /* TapGameViewController.swift */,
+				40CAC98B282C0A0500961691 /* FreeToPlayCompleteViewController.swift */,
+				40CAC989282BFFC500961691 /* FreeToPlayViewController.swift */,
+				40671C0A281C0FE500900ABA /* DotGameCompleteViewController.swift */,
+				40671C08281C0F1600900ABA /* DotGameViewController.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		40B836FF2822ED0E00168B5E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				407E201D28196478006B631C /* ViewController.swift */,
+				405D91C528197B1E00DA2B8E /* SettingViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8904BC3324253C52AC5D0F7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C11B80429B9019E93BD58F8E /* Pods-Stroke_Rehab_App.debug.xcconfig */,
+				7A1982A9A2628B28BDA468E4 /* Pods-Stroke_Rehab_App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		407E201528196478006B631C /* Stroke_Rehab_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 407E202A2819647A006B631C /* Build configuration list for PBXNativeTarget "Stroke_Rehab_App" */;
+			buildPhases = (
+				AC88751EBA29C7D136F5D1C1 /* [CP] Check Pods Manifest.lock */,
+				407E201228196478006B631C /* Sources */,
+				407E201328196478006B631C /* Frameworks */,
+				407E201428196478006B631C /* Resources */,
+				FC7DCCDF9D0ADFC56C95A755 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stroke_Rehab_App;
+			productName = Stroke_Rehab_App;
+			productReference = 407E201628196478006B631C /* Stroke_Rehab_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		407E200E28196478006B631C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					407E201528196478006B631C = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 407E201128196478006B631C /* Build configuration list for PBXProject "Stroke_Rehab_App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 407E200D28196478006B631C;
+			productRefGroup = 407E201728196478006B631C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				407E201528196478006B631C /* Stroke_Rehab_App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		407E201428196478006B631C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				407E20262819647A006B631C /* LaunchScreen.storyboard in Resources */,
+				40A8F966282A8DDB00A8F8A8 /* GoogleService-Info.plist in Resources */,
+				407E20232819647A006B631C /* Assets.xcassets in Resources */,
+				407E202128196478006B631C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC88751EBA29C7D136F5D1C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stroke_Rehab_App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC7DCCDF9D0ADFC56C95A755 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stroke_Rehab_App/Pods-Stroke_Rehab_App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stroke_Rehab_App/Pods-Stroke_Rehab_App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stroke_Rehab_App/Pods-Stroke_Rehab_App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		407E201228196478006B631C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CAC98C282C0A0500961691 /* FreeToPlayCompleteViewController.swift in Sources */,
+				40671C09281C0F1600900ABA /* DotGameViewController.swift in Sources */,
+				40CAC98E282C1A4C00961691 /* FreeGameData.swift in Sources */,
+				405849AE2832050900F68F69 /* TabBarController.swift in Sources */,
+				40CAC98A282BFFC500961691 /* FreeToPlayViewController.swift in Sources */,
+				402BD8FE282A9FA400921BCA /* GameData.swift in Sources */,
+				407E201E28196478006B631C /* ViewController.swift in Sources */,
+				40671C0B281C0FE500900ABA /* DotGameCompleteViewController.swift in Sources */,
+				40B2F7A52830EAD000872586 /* TapGameCompleteViewController.swift in Sources */,
+				407E201A28196478006B631C /* AppDelegate.swift in Sources */,
+				40B2F7A728311A5600872586 /* DotHistoryDetailViewController.swift in Sources */,
+				407E201C28196478006B631C /* SceneDelegate.swift in Sources */,
+				40FFAF1A2832B57F00CCBEF4 /* FreeToPlayHistoryDetailedViewController.swift in Sources */,
+				4096731B28327ACA00C850A7 /* FreeToPlayHistoryViewController.swift in Sources */,
+				40D90516282EBAAB00B8C050 /* TapGameViewController.swift in Sources */,
+				405D91C82819981E00DA2B8E /* DotHistoryViewController.swift in Sources */,
+				405D91C628197B1E00DA2B8E /* SettingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		407E201F28196478006B631C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				407E202028196478006B631C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		407E20242819647A006B631C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				407E20252819647A006B631C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		407E20282819647A006B631C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		407E20292819647A006B631C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		407E202B2819647A006B631C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C11B80429B9019E93BD58F8E /* Pods-Stroke_Rehab_App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stroke_Rehab_App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "au.edu.utas.iqbalma.kit305.Stroke-Rehab-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		407E202C2819647A006B631C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A1982A9A2628B28BDA468E4 /* Pods-Stroke_Rehab_App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stroke_Rehab_App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "au.edu.utas.iqbalma.kit305.Stroke-Rehab-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		407E201128196478006B631C /* Build configuration list for PBXProject "Stroke_Rehab_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				407E20282819647A006B631C /* Debug */,
+				407E20292819647A006B631C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		407E202A2819647A006B631C /* Build configuration list for PBXNativeTarget "Stroke_Rehab_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				407E202B2819647A006B631C /* Debug */,
+				407E202C2819647A006B631C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 407E200E28196478006B631C /* Project object */;
+}
